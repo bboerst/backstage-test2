@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: backstage-test2
+  description: This is a test
+  annotations: 
+    github.com/project-slug: bboerst/backstage-test2
+    backstage.io/source-ref: "https://github.com/bboerst/backstage-test2"
+    backstage.io/techdocs-ref: url:https://github.com/bboerst/backstage-test2
+spec:
+  type: service
+  lifecycle: experimental
+  owner: Guest
